@@ -16,6 +16,8 @@ const upsideDownConfig = {
   timeout: 30000,
 };
 
+console.log(process.env);
+
 const charactersService = new CharactersService(strangerThingsConfig);
 const charactersUpsideDownService = new CharactersService(upsideDownConfig);
 
